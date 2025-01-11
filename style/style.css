@@ -206,3 +206,40 @@ nav > ul > li {
 .news-details {
    margin: 12px 0 32px 0;
 }
+
+
+/* Donate Today */
+.donate {
+   margin-bottom: 80px;
+}
+
+.donate-today {
+   text-align: center;
+   max-width: 1104px;
+   margin: 0 auto;
+   padding-top: 56px;
+}
+
+.donate-box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.donate-amount {
+   background-color: white;
+   font-size: 40px;
+   font-weight: 700;
+   padding: 40px;
+   border-radius: 16px;
+   border: 1px solid #dbdbdb;
+   transition: .4s;
+}
+
+.donate-amount:hover {
+   background-color: #c6e4d6;
+}
+
+.donate-active {
+   background-color: #c6e4d6;
+}
