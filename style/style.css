@@ -20,8 +20,15 @@ body {
    font-size: 18px;
    font-weight: 500;
    padding: 13px 26px;
+   border: 1px solid #006a50;
    border-radius: 8px;
-   border: none;
+   cursor: pointer;
+   transition: .5s;
+}
+
+.btn-primary:hover {
+   color: #006a50;
+   background-color: transparent;
 }
 
 .section-title {
@@ -224,6 +231,8 @@ nav > ul > li {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   max-width: 1071px;
+   margin: 0 auto;
 }
 
 .donate-amount {
@@ -242,4 +251,28 @@ nav > ul > li {
 
 .donate-active {
    background-color: #c6e4d6;
+}
+
+input[type="text"] {
+   width: 100%;
+   max-width: 1032px;
+   height: 64px;
+   color: #969595;
+   font-size: 20px;
+   border: none;
+   border-bottom: 1px solid #cccccc6e;
+   text-align: center;
+   margin: 32px 0 32px 0;
+}
+
+input[type="text"]:focus {
+   outline: 1px solid #cccccc81;
+}
+
+::placeholder {
+   color: #b7b7b7;
+}
+
+.input-btn {
+   cursor: pointer;
 }
