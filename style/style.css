@@ -7,10 +7,13 @@
 }
 
 body {
-   max-width: 1280px;
-   margin: 0 auto;
    background-color: #f5f5f5;
    font-family: "Fira Sans", serif;
+}
+
+header, main {
+   max-width: 1280px;
+   margin: 0 auto;
 }
 
 /* Shared style */
@@ -339,4 +342,42 @@ input[type="text"]:focus {
 .promise {
    color: #454e4a;
    font-size: 16px;
+}
+
+/* Footer style */
+.footer-area {
+   background-color: white;
+   padding: 50px 0;
+}
+
+.footer-content {
+   max-width: 1280px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.footer-content h1 {
+   color: #0E0E0E;
+   font-size: 32px;
+   font-weight: 700;
+   margin-bottom: 32px;
+}
+
+.footer-content hr {
+   border: none;
+   border-bottom: 1px solid #e7e7e7;
+   max-width: 1122px;
+   margin: 0 auto;
+}
+
+.social-media {
+   margin-top: 32px;
+}
+
+.footer-content a {
+   text-decoration: none;
+}
+
+.instagram-icon {
+   margin: 0 23px;
 }
