@@ -23,7 +23,7 @@ body {
    border: 1px solid #006a50;
    border-radius: 8px;
    cursor: pointer;
-   transition: .5s;
+   transition: 0.5s;
 }
 
 .btn-primary:hover {
@@ -206,14 +206,14 @@ nav > ul > li {
    margin: 12px 0 12px 0;
 }
 
-.published-date, .news-details {
+.published-date,
+.news-details {
    color: #565656;
 }
 
 .news-details {
    margin: 12px 0 32px 0;
 }
-
 
 /* Donate Today */
 .donate {
@@ -242,7 +242,7 @@ nav > ul > li {
    padding: 40px;
    border-radius: 16px;
    border: 1px solid #dbdbdb;
-   transition: .4s;
+   transition: 0.4s;
 }
 
 .donate-amount:hover {
@@ -275,4 +275,68 @@ input[type="text"]:focus {
 
 .input-btn {
    cursor: pointer;
+}
+
+/* Newsletter */
+.newsletter {
+   text-align: center;
+   background-color: #c6e4d6;
+   border-radius: 24px;
+   padding: 80px;
+   margin-bottom: 80px;
+}
+
+.subscribe {
+   color: #0e0e0e;
+   font-size: 40px;
+   font-weight: 700;
+   margin-bottom: 16px;
+}
+
+.newsletter-info {
+   color: #454e4a;
+   font-size: 16px;
+   max-width: 622px;
+   margin: 0 auto;
+   line-height: 24px;
+}
+
+.newsletter-form {
+   max-width: 750px;
+   margin: 0 auto;
+}
+
+.newsletter-form input[type="email"] {
+   color: #acacac;
+   width: 600px;
+   height: 55px;
+   font-size: 16px;
+   padding-left: 40px;
+   border: none;
+   border-radius: 8px 0 0 8px;
+   margin: 24px 0;
+   outline: none;
+}
+
+.newsletter-form input[type="submit"] {
+   color: white;
+   background-color: #006a50;
+   height: 55px;
+   font-size: 18px;
+   font-weight: 500;
+   border: none;
+   border-radius: 0 8px 8px 0;
+   padding: 17px 34px;
+   cursor: pointer;
+   margin-left: -5px;
+   transition: .4s;
+}
+
+.newsletter-form input[type="submit"]:hover {
+   background-color: #025742;
+}
+
+.promise {
+   color: #454e4a;
+   font-size: 16px;
 }
