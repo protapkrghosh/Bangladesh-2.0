@@ -11,12 +11,13 @@ body {
    font-family: "Fira Sans", serif;
 }
 
-header, main {
+header,
+main {
    max-width: 1280px;
    margin: 0 auto;
 }
 
-/* Shared style */
+/************ Shared style ************/
 .btn-primary {
    color: #fff;
    background-color: #006a50;
@@ -46,7 +47,7 @@ header, main {
    line-height: 24px;
 }
 
-/* Navbar style */
+/************ Navbar style ************/
 nav {
    margin: 24px 0 44px 0;
 }
@@ -83,7 +84,7 @@ nav > ul > li {
    background-color: #006a5028;
 }
 
-/* Banner section */
+/************ Banner section ************/
 .banner {
    background-color: #c6e4d6;
    border-radius: 24px;
@@ -107,7 +108,7 @@ nav > ul > li {
    margin: 16px 0 24px 0;
 }
 
-/* Vision section style */
+/************ Vision section style ************/
 .vision {
    margin: 80px 0 32px 0;
 }
@@ -185,7 +186,39 @@ nav > ul > li {
    background-color: #d6a531;
 }
 
-/* Recent News */
+/************ Quote Section Style ************/
+.quote {
+   background-color: white;
+   border: 1px solid #dbdbdb;
+   border-radius: 16px;
+   padding: 48px 24px;
+   margin-bottom: 80px;
+   background-image: url("../assets/quote-bg.png");
+   background-repeat: no-repeat;
+   background-position: 25px 25px;
+}
+
+.quote info {
+   color: #383737;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.quote h3 {
+   color: #3e3e3e;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 24px;
+   margin: 12px 0 4px 0;
+}
+
+.quote p {
+   color: #6e6e6e;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+/************ Recent News ************/
 .news {
    display: flex;
    gap: 32px;
@@ -218,7 +251,7 @@ nav > ul > li {
    margin: 12px 0 32px 0;
 }
 
-/* Donate Today */
+/************ Donate Today ************/
 .donate {
    margin-bottom: 80px;
 }
@@ -280,7 +313,7 @@ input[type="text"]:focus {
    cursor: pointer;
 }
 
-/* Newsletter */
+/************ Newsletter ************/
 .newsletter {
    text-align: center;
    background-color: #c6e4d6;
@@ -332,7 +365,7 @@ input[type="text"]:focus {
    padding: 17px 34px;
    cursor: pointer;
    margin-left: -5px;
-   transition: .4s;
+   transition: 0.4s;
 }
 
 .newsletter-form input[type="submit"]:hover {
@@ -344,7 +377,7 @@ input[type="text"]:focus {
    font-size: 16px;
 }
 
-/* Footer style */
+/************ Footer style ************/
 .footer-area {
    background-color: white;
    padding: 50px 0;
@@ -357,7 +390,7 @@ input[type="text"]:focus {
 }
 
 .footer-content h1 {
-   color: #0E0E0E;
+   color: #0e0e0e;
    font-size: 32px;
    font-weight: 700;
    margin-bottom: 32px;
