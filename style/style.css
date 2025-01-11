@@ -108,6 +108,44 @@ nav > ul > li {
    margin: 16px 0 24px 0;
 }
 
+/************ Pillars of Bangladesh 2.0 ************/
+.pillars {
+   margin: 80px 0;
+}
+
+.pillars-title {
+   margin-bottom: 32px;
+}
+
+.pillars-container {
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+}
+
+.pillars-box {
+   background-color: white;
+   border: 1px solid #dbdbdb;
+   border-radius: 16px;
+   padding: 24px;
+}
+
+.pillars-box h3 {
+   color: #3e3e3e;
+   font-size: 20px;
+   font-weight: 700;
+   margin: 24px 0 12px 0;
+}
+
+.pillars-box p {
+   color: #565656;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+
+
+
 /************ Vision section style ************/
 .vision {
    margin: 80px 0 32px 0;
