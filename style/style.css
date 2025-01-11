@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
    margin: 0;
@@ -16,7 +16,7 @@ body {
 /* Shared style */
 .btn-primary {
    color: #fff;
-   background-color: #006A50;
+   background-color: #006a50;
    font-size: 18px;
    font-weight: 500;
    padding: 13px 26px;
@@ -25,7 +25,7 @@ body {
 }
 
 .section-title {
-   color: #0E0E0E;
+   color: #0e0e0e;
    font-size: 40px;
    font-weight: 700;
 }
@@ -53,30 +53,29 @@ nav > ul > li {
 }
 
 .site-name {
-   color: #0E0E0E;
+   color: #0e0e0e;
    font-size: 32px;
    font-weight: 700;
 }
 
 .nav-btn {
-   color: #006A50;
+   color: #006a50;
    font-size: 18px;
    font-weight: 500;
    padding: 13px 26px;
    border-radius: 8px;
-   border: 1px solid #006A50;
+   border: 1px solid #006a50;
    cursor: pointer;
-   transition: .4s;
+   transition: 0.4s;
 }
 
 .nav-btn:hover {
    background-color: #006a5028;
 }
 
-
 /* Banner section */
 .banner {
-   background-color: #C6E4D6;
+   background-color: #c6e4d6;
    border-radius: 24px;
    padding: 80px 60px;
    display: flex;
@@ -92,12 +91,11 @@ nav > ul > li {
 }
 
 .banner .title {
-   color: #0E0E0E;
+   color: #0e0e0e;
    font-size: 56px;
    font-weight: 700;
    margin: 16px 0 24px 0;
 }
-
 
 /* Vision section style */
 .vision {
@@ -105,7 +103,6 @@ nav > ul > li {
 }
 .vision-details {
    margin: 24px 0 32px 0;
-
 }
 
 .vision-box {
@@ -141,14 +138,14 @@ nav > ul > li {
    padding: 11px 20px;
    border: none;
    cursor: pointer;
-   transition: .4s;
+   transition: 0.4s;
 }
 
-.green-box{
+.green-box {
    background-color: #c6e4d6;
 }
 
-.modern-box{
+.modern-box {
    background-color: #f7ebcf;
 }
 
@@ -178,3 +175,33 @@ nav > ul > li {
    background-color: #d6a531;
 }
 
+/* Recent News */
+.news {
+   display: flex;
+   gap: 32px;
+   background-color: white;
+   padding: 48px;
+   border-radius: 24px;
+}
+
+.satelite img {
+   border-radius: 24px;
+}
+
+.news-title {
+   font-size: 32px;
+   font-weight: 700;
+   color: #0e0e0e;
+}
+
+.news-portal {
+   margin: 12px 0 12px 0;
+}
+
+.published-date, .news-details {
+   color: #565656;
+}
+
+.news-details {
+   margin: 12px 0 32px 0;
+}
