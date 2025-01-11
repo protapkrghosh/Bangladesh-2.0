@@ -140,6 +140,8 @@ nav > ul > li {
    border-radius: 8px;
    padding: 11px 20px;
    border: none;
+   cursor: pointer;
+   transition: .4s;
 }
 
 .green-box{
@@ -163,21 +165,16 @@ nav > ul > li {
    background-color: #ffc239;
 }
 
-/* .vision {
-   margin: 80px 0 32px 0;
+.digital-btn:hover {
+   background-color: #4878ca;
 }
 
-.vision-details {
-   margin: 24px 0 32px 0;
-
+.green-btn:hover {
+   background-color: #09864e;
+   margin-top: 23px;
 }
 
-.vision-box {
-   display: flex;
-   gap: 24px;
+.modern-btn:hover {
+   background-color: #d6a531;
 }
 
-.card {
-   width: 100%;
-   background-color: #d5e1f5;
-} */
